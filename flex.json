@@ -1,0 +1,142 @@
+{
+    "description": "Flex 2 Project File",
+    "name": "Crackers?",
+    "objects": [
+        {
+            "name": "Sonic, I think.",
+            "palettes": [
+                {
+                    "path": "Palettes\\PalPrimaryColours.bin",
+                    "length": 2
+                }
+            ],
+            "art": {
+                "path": "Uncompressed\\ArtuncSonic.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "Flex 2 only stuff\\S1FmtMap_Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "Flex 2 only stuff\\S1FmtPLC_Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Tails, I SUPPOSE!",
+            "palettes": [
+                {
+                    "path": "Palettes\\PalPrimaryColours.bin",
+                    "length": 2
+                }
+            ],
+            "art": {
+                "path": "Uncompressed\\ArtuncTails.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "Flex 2 only stuff\\S1FmtMap_Tails.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "Flex 2 only stuff\\S1FmtPLC_Tails.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Sonic's Fucking Arm",
+            "palettes": [],
+            "art": {
+                "path": "Uncompressed\\ArtuncSonicArms.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Tails's Arm",
+            "palettes": [],
+            "art": {
+                "path": "Uncompressed\\ArtuncTailsArms.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Springs",
+            "palettes": [],
+            "art": {
+                "path": "NemesisComp\\ArtnemSprings.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "",
+            "palettes": [],
+            "art": {
+                "path": "Uncompressed\\Artunc_Tether.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        }
+    ]
+}
