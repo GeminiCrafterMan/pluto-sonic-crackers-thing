@@ -1,6 +1,7 @@
 {
-    "description": "Flex 2 Project File",
+    "Flex": 2,
     "name": "Crackers?",
+    "node": "d42ea2ca-2ffc-4f69-9229-65bb27fe3c94",
     "objects": [
         {
             "name": "Sonic, I think.",
@@ -12,7 +13,8 @@
             ],
             "art": {
                 "path": "Uncompressed\\ArtuncSonic.bin",
-                "compression": "Uncompressed"
+                "compression": "Uncompressed",
+                "offset": 0
             },
             "mappings": {
                 "path": "Flex 2 only stuff\\S1FmtMap_Sonic.asm",
@@ -26,40 +28,46 @@
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "4dd42ea2-ca2f-4c3f-a912-2965bb27fe3c",
+            "format": "Sonic 1.js"
         },
         {
             "name": "Tails, I SUPPOSE!",
             "palettes": [
                 {
-                    "path": "Palettes\\PalPrimaryColours.bin",
+                    "path": "Palettes/PalPrimaryColours.bin",
                     "length": 2
                 }
             ],
             "art": {
-                "path": "Uncompressed\\ArtuncTails.bin",
-                "compression": "Uncompressed"
+                "path": "Uncompressed/ArtuncTails.bin",
+                "compression": "Uncompressed",
+                "offset": 0
             },
             "mappings": {
-                "path": "Flex 2 only stuff\\S1FmtMap_Tails.asm",
+                "path": "Flex 2 only stuff/S1FmtMap_Tails.asm",
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
             },
             "dplcs": {
                 "enabled": true,
-                "path": "Flex 2 only stuff\\S1FmtPLC_Tails.asm",
+                "path": "Flex 2 only stuff/S1FmtPLC_Tails.asm",
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "d42ea2ca-2ffc-4f69-9229-65bb27fe3c94",
+            "format": "Sonic 1.js"
         },
         {
             "name": "Sonic's Fucking Arm",
             "palettes": [],
             "art": {
                 "path": "Uncompressed\\ArtuncSonicArms.bin",
-                "compression": "Uncompressed"
+                "compression": "Uncompressed",
+                "offset": 0
             },
             "mappings": {
                 "path": "",
@@ -73,14 +81,16 @@
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "2ea2ca2f-fc3f-4912-a965-bb27fe3c9486"
         },
         {
             "name": "Tails's Arm",
             "palettes": [],
             "art": {
                 "path": "Uncompressed\\ArtuncTailsArms.bin",
-                "compression": "Uncompressed"
+                "compression": "Uncompressed",
+                "offset": 0
             },
             "mappings": {
                 "path": "",
@@ -94,14 +104,16 @@
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "a2ca2ffc-3f69-4229-a5bb-27fe3c9486a2"
         },
         {
             "name": "Springs",
             "palettes": [],
             "art": {
                 "path": "NemesisComp\\ArtnemSprings.bin",
-                "compression": "Nemesis"
+                "compression": "Nemesis",
+                "offset": 0
             },
             "mappings": {
                 "path": "",
@@ -115,14 +127,16 @@
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "ca2ffc3f-6912-4965-bb27-fe3c9486a2a5"
         },
         {
             "name": "",
             "palettes": [],
             "art": {
                 "path": "Uncompressed\\Artunc_Tether.bin",
-                "compression": "Uncompressed"
+                "compression": "Uncompressed",
+                "offset": 0
             },
             "mappings": {
                 "path": "",
@@ -136,7 +150,8 @@
                 "format": "Sonic 1",
                 "customDefinition": "",
                 "label": ""
-            }
+            },
+            "uuid": "2ffc3f69-1229-45bb-a7fe-3c9486a2a538"
         }
     ]
 }
